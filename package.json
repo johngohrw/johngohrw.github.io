@@ -1,10 +1,10 @@
 {
   "name": "johngohrw.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "muh github website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/johngohrw/johngohrw.github.io/issues"
   },
-  "homepage": "https://github.com/johngohrw/johngohrw.github.io#readme"
+  "homepage": "https://github.com/johngohrw/johngohrw.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  }
 }
